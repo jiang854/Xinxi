@@ -1,5 +1,11 @@
 # VSCF-Pro 变更记录
 
+## 2026-11-26｜通用JSON模板文件中文命名
+- 将 `style-profile.template.json` 重命名为 `01_风格档案创建模板_STYLE_PROFILE.json`。
+- 将 `theme-input.template.json` 重命名为 `02_主题迁移输入模板_THEME_INPUT.json`。
+- 保留两个模板原有JSON字段和功能区别，不将通用模板绑定到单一STYLE档案。
+- 更新模块README目录树，并补充两个模板的职责说明。
+
 ## 2026-11-26｜风格档案目录中文命名
 - 将 `STYLE_001_Luminous_Painterly_Fantasy/` 重命名为 `STYLE_001_明亮通透的幻想环境绘画/`。
 - 将 `STYLE_002_Conceptual_Red_Editorial/` 重命名为 `STYLE_002_高对比红色概念摄影海报/`。
