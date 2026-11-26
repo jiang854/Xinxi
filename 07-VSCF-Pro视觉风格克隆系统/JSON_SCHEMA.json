@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/jiang854/Xinxi/blob/main/07-VSCF-Pro视觉风格克隆系统/JSON_SCHEMA.json",
+  "title": "VSCF-Pro Style Profile",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "profile_id",
+    "status",
+    "style_profile",
+    "theme_input",
+    "generation_control"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "profile_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "provisional",
+        "reviewed",
+        "tested",
+        "stable"
+      ]
+    },
+    "source_reference": {
+      "type": "object",
+      "properties": {
+        "reference_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "reference_description": {
+          "type": "string"
+        },
+        "analysis_date": {
+          "type": "string"
+        },
+        "evidence_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "style_profile": {
+      "type": "object",
+      "required": [
+        "style_name",
+        "style_definition",
+        "style_invariants",
+        "narrative_identity"
+      ],
+      "properties": {
+        "style_name": {
+          "type": "string"
+        },
+        "style_definition": {
+          "type": "string"
+        },
+        "style_identity": {
+          "type": "object"
+        },
+        "style_invariants": {
+          "type": "object",
+          "required": [
+            "01_style_identity",
+            "02_color_system",
+            "03_lighting_system",
+            "04_composition_system",
+            "05_scale_system",
+            "06_painting_language",
+            "07_edge_hierarchy",
+            "08_finish_control",
+            "09_information_density",
+            "10_material_texture",
+            "11_subject_design",
+            "12_visual_anchor",
+            "13_visual_tension"
+          ],
+          "properties": {
+            "01_style_identity": {
+              "type": "object"
+            },
+            "02_color_system": {
+              "type": "object"
+            },
+            "03_lighting_system": {
+              "type": "object"
+            },
+            "04_composition_system": {
+              "type": "object"
+            },
+            "05_scale_system": {
+              "type": "object"
+            },
+            "06_painting_language": {
+              "type": "object"
+            },
+            "07_edge_hierarchy": {
+              "type": "object"
+            },
+            "08_finish_control": {
+              "type": "object"
+            },
+            "09_information_density": {
+              "type": "object"
+            },
+            "10_material_texture": {
+              "type": "object"
+            },
+            "11_subject_design": {
+              "type": "object"
+            },
+            "12_visual_anchor": {
+              "type": "object"
+            },
+            "13_visual_tension": {
+              "type": "object"
+            }
+          },
+          "additionalProperties": true
+        },
+        "narrative_identity": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": true
+    },
+    "theme_input": {
+      "type": "object",
+      "properties": {
+        "theme": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "scene": {
+          "type": "string"
+        },
+        "action": {
+          "type": "string"
+        },
+        "narrative_goal": {
+          "type": "string"
+        },
+        "output_type": {
+          "type": "string"
+        },
+        "aspect_ratio": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "application_variables": {
+      "type": "object"
+    },
+    "generation_control": {
+      "type": "object",
+      "required": [
+        "preserve_style",
+        "allow_theme_change",
+        "allow_style_change"
+      ],
+      "properties": {
+        "preserve_style": {
+          "type": "boolean"
+        },
+        "allow_theme_change": {
+          "type": "boolean"
+        },
+        "allow_style_change": {
+          "type": "boolean"
+        },
+        "preserve_consistency_anchors": {
+          "type": "boolean"
+        },
+        "model_specific_parameters": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": true
+    },
+    "negative_prompt": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validation": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

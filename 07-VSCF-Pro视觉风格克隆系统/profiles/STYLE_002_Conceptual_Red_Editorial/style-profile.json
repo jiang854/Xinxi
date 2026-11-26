@@ -1,0 +1,94 @@
+{
+  "schema_version": "VSCF-Pro-1.0",
+  "profile_id": "STYLE_002_Conceptual_Red_Editorial",
+  "status": "provisional",
+  "source_reference": {
+    "reference_count": 1,
+    "reference_description": "单张竖版电影节概念海报：高饱和红色地面、俯拍人物、眼形白色道具、深色圆形细节、强烈长投影和黑色粗体文字。",
+    "evidence_notes": [
+      "可观察到红色主背景、暖白道具、黑色字体和深青绿色局部。",
+      "可观察到高机位/俯视摄影、非对称布局、重复图形和明确方向的长投影。",
+      "可观察到摄影主体与平面图形排版融合。",
+      "跨主题稳定性尚未验证。"
+    ]
+  },
+  "style_profile": {
+    "style_name": "高对比红色概念摄影编辑式海报风格",
+    "style_definition": "以高纯度红色背景、俯视概念摄影、超现实主体设计、强方向性投影、粗黑无衬线字体和非对称现代主义排版构成的实验性视觉设计风格。",
+    "style_identity": {
+      "art_category": "现代主义编辑式海报与实验概念摄影",
+      "medium": "摄影与平面图形设计结合",
+      "visual_character": "大胆、实验性、现代、强对比",
+      "narrative_identity": "直接、趣味、反常规"
+    },
+    "style_invariants": {
+      "01_style_identity": {
+        "rule": "保持现代主义编辑式海报与概念摄影身份"
+      },
+      "02_color_system": {
+        "rule": "红色主导，暖白和黑色形成强对比，深青绿作为受控强调色"
+      },
+      "03_lighting_system": {
+        "rule": "高机位直射光，明确受光面与方向性长阴影"
+      },
+      "04_composition_system": {
+        "rule": "非对称、错位、重复、尺度变化和清晰信息层级"
+      },
+      "05_scale_system": {
+        "rule": "主体与概念道具形成尺度反差"
+      },
+      "06_painting_language": {
+        "rule": "真实摄影质感与平面图形设计结合"
+      },
+      "07_edge_hierarchy": {
+        "rule": "主体轮廓和阴影边界清晰，背景简洁"
+      },
+      "08_finish_control": {
+        "rule": "主体精细，背景简化，文字边缘清楚"
+      },
+      "09_information_density": {
+        "rule": "主体、标题和辅助信息分区组织"
+      },
+      "10_material_texture": {
+        "rule": "真实摄影材质、哑光表面和适度印刷颗粒"
+      },
+      "11_subject_design": {
+        "rule": "具象主体与超现实抽象视觉符号结合"
+      },
+      "12_visual_anchor": {
+        "rule": "红色背景、粗黑字体、强投影、重复视觉符号"
+      },
+      "13_visual_tension": {
+        "rule": "色彩反差、尺度对比、错位、重复和方向性"
+      }
+    },
+    "typography_system": {
+      "font_style": "粗黑几何无衬线字体",
+      "weight": "Heavy / Extra Bold",
+      "color": "Black",
+      "hierarchy": "超大主标题、主题文字、辅助信息",
+      "rule": "文字参与构图，而非简单叠加"
+    },
+    "narrative_identity": {
+      "emotional_base": "直接、醒目、趣味、反常规",
+      "audience_feeling": "好奇、惊讶、记忆深刻"
+    }
+  },
+  "theme_input": {},
+  "generation_control": {
+    "preserve_style": true,
+    "allow_theme_change": true,
+    "allow_style_change": false,
+    "preserve_consistency_anchors": true,
+    "model_specific_parameters": {}
+  },
+  "negative_prompt": [
+    "不得默认复制原图眼形道具、人物、BCCN品牌或电影节信息",
+    "不得机械复制原图布局",
+    "不得失去红色主导、强投影和现代主义编辑式设计特征"
+  ],
+  "validation": {
+    "cross_theme_stability": "not_tested",
+    "note": "单图初步提取档案，尚未通过跨主题生成验证。"
+  }
+}

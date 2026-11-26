@@ -1,0 +1,51 @@
+{
+  "schema_version": "VSCF-Pro-1.0",
+  "profile_id": "STYLE_XXX",
+  "status": "provisional",
+  "source_reference": {
+    "reference_count": 1,
+    "reference_description": "",
+    "analysis_date": "",
+    "evidence_notes": []
+  },
+  "style_profile": {
+    "style_name": "",
+    "style_definition": "",
+    "style_identity": {},
+    "style_invariants": {
+      "01_style_identity": {},
+      "02_color_system": {},
+      "03_lighting_system": {},
+      "04_composition_system": {},
+      "05_scale_system": {},
+      "06_painting_language": {},
+      "07_edge_hierarchy": {},
+      "08_finish_control": {},
+      "09_information_density": {},
+      "10_material_texture": {},
+      "11_subject_design": {},
+      "12_visual_anchor": {},
+      "13_visual_tension": {}
+    },
+    "narrative_identity": {}
+  },
+  "theme_input": {
+    "theme": "",
+    "subject": "",
+    "scene": "",
+    "action": "",
+    "narrative_goal": "",
+    "output_type": "",
+    "aspect_ratio": ""
+  },
+  "application_variables": {},
+  "generation_control": {
+    "preserve_style": true,
+    "allow_theme_change": true,
+    "allow_style_change": false,
+    "preserve_consistency_anchors": true,
+    "model_specific_parameters": {}
+  },
+  "negative_prompt": [],
+  "validation": {}
+}

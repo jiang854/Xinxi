@@ -1,0 +1,85 @@
+{
+  "schema_version": "VSCF-Pro-1.0",
+  "profile_id": "STYLE_001_Luminous_Painterly_Fantasy",
+  "status": "provisional",
+  "source_reference": {
+    "reference_count": 1,
+    "reference_description": "单张竖版幻想环境绘画：蓝色天空、云层、漂浮地貌、瀑布、绿色植被、石质遗迹和飞鸟。",
+    "evidence_notes": [
+      "可观察到清透蓝色天空、蓝灰远景、鲜明绿色受光面和暖白云层。",
+      "可观察到层叠空间、空气透视、柔和自然光和绘画化数字笔触。",
+      "跨主题稳定性尚未验证。"
+    ]
+  },
+  "style_profile": {
+    "style_name": "明亮通透的幻想环境绘画风格",
+    "style_definition": "以清透蓝绿色调、柔和自然光、空气透视、层叠空间、表现性数字绘画笔触和选择性精细刻画构建诗意幻想环境。",
+    "style_identity": {
+      "art_category": "幻想数字绘画与环境概念插画",
+      "medium": "绘画化数字厚涂",
+      "visual_character": "明亮、通透、自然、具有空间纵深",
+      "narrative_identity": "自由、诗意、探索感"
+    },
+    "style_invariants": {
+      "01_style_identity": {
+        "rule": "保持明亮通透的幻想绘画身份"
+      },
+      "02_color_system": {
+        "rule": "清透蓝、青蓝、蓝灰、绿色和暖白构成主色关系，局部允许蓝紫与柔和暖黄"
+      },
+      "03_lighting_system": {
+        "rule": "柔和自然光，亮部清透，阴影偏冷，具有空气感"
+      },
+      "04_composition_system": {
+        "rule": "前中后景层叠，主体突出，背景提供空间纵深；具体布局可适配主题"
+      },
+      "05_scale_system": {
+        "rule": "利用主体与环境的尺度关系构建沉浸感"
+      },
+      "06_painting_language": {
+        "rule": "可见笔触、柔和融合、局部精细与整体概括结合"
+      },
+      "07_edge_hierarchy": {
+        "rule": "主体清晰，中景适度柔化，远景受空气透视影响"
+      },
+      "08_finish_control": {
+        "rule": "焦点区域精细，背景适度概括"
+      },
+      "09_information_density": {
+        "rule": "细节集中在主体和关键区域，非重点区域保持呼吸感"
+      },
+      "10_material_texture": {
+        "rule": "自然材质通过统一的绘画笔触和光照表现"
+      },
+      "11_subject_design": {
+        "rule": "主体轮廓清晰，与环境在色彩和光线上融合"
+      },
+      "12_visual_anchor": {
+        "rule": "绘画笔触、蓝绿色彩关系、柔和光线、层叠空间、选择性细节"
+      },
+      "13_visual_tension": {
+        "rule": "尺度、冷暖、虚实、动静和疏密关系"
+      }
+    },
+    "narrative_identity": {
+      "emotional_base": "宁静、辽阔、清新、神秘",
+      "audience_feeling": "沉浸、惊奇和探索欲"
+    }
+  },
+  "theme_input": {},
+  "generation_control": {
+    "preserve_style": true,
+    "allow_theme_change": true,
+    "allow_style_change": false,
+    "preserve_consistency_anchors": true,
+    "model_specific_parameters": {}
+  },
+  "negative_prompt": [
+    "不得将浮岛、瀑布、飞鸟、石柱、峡谷和花卉强制带入所有新主题",
+    "避免自动转为摄影写实、扁平矢量或机械化3D"
+  ],
+  "validation": {
+    "cross_theme_stability": "not_tested",
+    "note": "单图初步提取档案，尚未通过跨主题生成验证。"
+  }
+}
