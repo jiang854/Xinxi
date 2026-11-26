@@ -53,9 +53,9 @@ VSCF-Pro 将参考图中的可观察视觉规律转化为可复用的风格档�
 │   └── theme-input.template.json
 └── profiles/
     ├── README.md
-    ├── STYLE_001_Luminous_Painterly_Fantasy/
+    ├── STYLE_001_明亮通透的幻想环境绘画/
     │   └── style-profile.json
-    └── STYLE_002_Conceptual_Red_Editorial/
+    └── STYLE_002_高对比红色概念摄影海报/
         └── style-profile.json
 ```
 

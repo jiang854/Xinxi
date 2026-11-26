@@ -4,9 +4,10 @@
 
 ## 命名规则
 
+风格档案文件夹统一使用「永久编号_中文风格名称」格式。浏览目录时，可直接通过中文名称识别风格；STYLE编号作为唯一身份ID，不因文件夹改名而改变。
+
 ```text
-STYLE_001_English_Style_Name/
-├── README.md
+STYLE_001_中文风格名称/
 ├── style-profile.json
 ├── prompt-cn.json
 ├── prompt-en.json
@@ -14,6 +15,11 @@ STYLE_001_English_Style_Name/
 ├── prompt-natural-language.md
 └── validation/
 ```
+
+例如：
+
+- `STYLE_001_明亮通透的幻想环境绘画/`
+- `STYLE_002_高对比红色概念摄影海报/`
 
 ## 档案状态
 
@@ -29,3 +35,4 @@ STYLE_001_English_Style_Name/
 3. 主题变化不创建新风格ID。
 4. 核心DNA变化时升级档案版本。
 5. 原始参考图默认不入库；保存前需确认。
+6. 文件夹名称采用「STYLE编号_中文风格名称」；修改中文名称不得改变STYLE编号或风格DNA。
